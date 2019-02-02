@@ -1,0 +1,18 @@
+Blinking:
+
+Types of blinks:
+1) Blinking the screen
+2) Blinking the notification bar
+3) Iphone vala circle
+4) Vibration
+5) Setting alert music
+
+Features:
+1) Blink currency
+2) Background application
+3) Setting the threshold
+4) Sleep mode
+5) Statistics application wise, in which application how much blinking is there
+6) Complete analysis
+7) Milestones
+ 
