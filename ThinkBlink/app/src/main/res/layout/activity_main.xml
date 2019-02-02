@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="10dp">
+    android:padding="10dp"
+    android:orientation="vertical">
 
     <!--  Button to trigger Floating Widget Service -->
     <Button
@@ -13,4 +14,23 @@
         android:text="@string/create_floating_widget"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/status_bar_flicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="statusBarFlicker"
+        android:text="Status bar flicker"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/vibrate_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="vibratePhone"
+        android:text="Vibrate phone"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
 </LinearLayout>
