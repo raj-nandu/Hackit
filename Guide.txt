@@ -17,6 +17,5 @@ Features:
 5) Statistics application wise, in which application how much blinking is there
 6) Complete analysis
 7) Milestones
-8) Testing 123
-8)
+
  
