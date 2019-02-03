@@ -238,6 +238,8 @@ public class CameraFragment extends Fragment {
             }
         }
         System.out.println(text);
+        TextFragment.editText.setText(text);
+        //TODO add text change
     }
 
     private synchronized List<String> getTopLabels(byte[][] labelProbArray) {
@@ -412,6 +414,7 @@ public class CameraFragment extends Fragment {
         switch (requestCode) {
             case 1:
                 if (resultCode == RESULT_OK) {
+                    text = "";
                     Uri uri = data.getData();
                     String[] projection = {MediaStore.Images.Media.DATA};
 

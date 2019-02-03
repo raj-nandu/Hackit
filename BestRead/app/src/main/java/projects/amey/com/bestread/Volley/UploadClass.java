@@ -23,11 +23,11 @@ public class UploadClass {
         volleyApplication = new VolleyApplication(context);
     }
 
-    public void postRequest(){
+    public void postRequest(String text){
         JSONObject postparams = new JSONObject();
         try {
             postparams.put("voice", "Joanna");
-            postparams.put("text", "Hello Cloud!");
+            postparams.put("text", text);
         }
         catch(Exception e){
             e.printStackTrace();
